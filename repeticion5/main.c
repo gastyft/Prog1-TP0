@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /*Suponga que se tiene un conjunto de calificaciones de un grupo de 40 alumnos.
-Realizar un algoritmo para calcular la calificaciÛn promedio y la calificaciÛn m·s baja de todo el grupo. */
+Realizar un algoritmo para calcular la calificaci√≥n promedio y la calificaci√≥n m√°s baja de todo el grupo. */
 
 int main()
 {
-    int nota, suma, i, notaMasBaja=10;
+    int nota, suma, i, notaMasBaja=0;
     float promedio;
 
     for (i=0; i<39; i++){
@@ -14,6 +14,9 @@ int main()
         scanf("%d", &nota);
 
         suma += nota;
+           if(i==0){
+            notaMasBaja=nota;
+        }
         if(notaMasBaja>nota){
             notaMasBaja= nota;
         }
