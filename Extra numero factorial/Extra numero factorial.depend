@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1679266471 source:c:\users\usuario\desktop\utn\programacion y laboratorio 1\tps\tp0\extra numero factorial\main.c
+	<stdio.h>
+	<stdlib.h>
+
